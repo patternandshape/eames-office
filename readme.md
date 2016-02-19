@@ -14,7 +14,7 @@ A website for the Eames Office using responsive design layouts we learned this w
 ##### Technologies Used
 
 * HTML
-* CSS (no Bootstrap)
+* CSS
 * Atom
 * Terminal
 * Google Fonts API
