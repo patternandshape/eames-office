@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* For testing only */
+
+/**:not(body):not(html):not(.container) {
+  box-sizing:border-box;
+  border:2px dashed #000;
+}*/
+
+/* End for testing */
+
+@-ms-viewport{
+  width: device-width;
+}
+
+.container {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.col1, .col2 {
+  width: 100%;
+}
+
+.main {
+  background-color: rgba(225, 225, 0, .57);
+  height: 50vh;
+}
+
+.col1 {
+  margin: 5% 0;
+  background-color: rgba(255, 0, 0, .57);
+  height: 18.5vh;
+}
+
+.col2 {
+  margin: 5% 0;
+  background-color: rgba(0, 0, 255, 0.57);
+  height: 18.5vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .col1, .col2 {
+    width: 48%;
+    height: 50vh;
+    margin: 5% 0 0 0;
+  }
+
+html, body {
+  margin: 0;
+}
+
+  .col1 {
+    float: left;
+  }
+
+  .col2 {
+    float: right;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    float: left;
+    width: 49%;
+    height: 100vh;
+}
+
+  .col1, .col2 {
+    float: right;
+    height: 48vh;
+    width: 49%;
+  }
+
+  .col1 {
+    margin: 0 0 2vh 0;
+  }
+
+  .col2 {
+    margin: 2vh 0 0 0;
+  }
+}
