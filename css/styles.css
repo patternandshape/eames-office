@@ -191,7 +191,7 @@ li a {
     float: left;
     text-align: center;
     letter-spacing: 1px;
-    padding: 1vh 2vw 1vh 0;
+    padding: 7vh 3vw 7vh 0;
   }
 
   .col1 h3 {
@@ -202,9 +202,10 @@ li a {
     float: right;
     background-color: #000;
     color: #fff;
-    padding-top: 1.5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-top: 3vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-size: 14px;
   }
 
   .col2 img {
@@ -259,6 +260,7 @@ li a {
     position: relative;
     right: 0;
     margin: 0 auto;
+    margin-bottom: 1.8%;
   }
 
   .main img {
@@ -267,7 +269,7 @@ li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
   }
@@ -331,10 +333,24 @@ li a {
 
   .col1 {
     margin: 0 0 1vh 0;
+    padding-top: 10vh;
+  }
+
+  .col1 h3 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: .15em;
+    font-weight: bold;
+  }
+
+  .col1 p {
+    font-size: 14px;
   }
 
   .col2 {
     margin: 1vh 0 0 0;
+    bottom: 0;
+    padding-top: 8vh;
   }
 
   .col2 img {
@@ -345,10 +361,9 @@ li a {
   }
 
   .col2 p {
-    clear:both;
-    font-size: 13px;
     letter-spacing: .75px;
     line-height: 20px;
+    font-size: 16px;
   }
 
   .main {
@@ -356,16 +371,17 @@ li a {
     width: 72%;
     height: 100vh;
     margin-right: .70vw;
+    margin-bottom: 0;
 }
 
   .main img {
-    /*margin-top: -2%;*/
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 100%S;
     object-fit: cover;
     /*position: absolute;*/
-    top: 0;
+    /*top: 0;
     left: 0;
+    margin-bottom: 0;*/
 }
 }
