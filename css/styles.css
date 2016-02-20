@@ -41,7 +41,7 @@ body {
   background-color: #fff;
   height: 25vh;
   color: #000;
-  padding: 4% 8% 7% 8%;
+  padding: 4% 8% 7% 10%;
   font-size: 14px;
 }
 
@@ -52,7 +52,7 @@ body {
 .col2 .inverse {
   width: 60%;
   display: block;
-  margin: 0 auto;
+  margin: 0.5vh auto;
 }
 
 .container {
@@ -73,10 +73,6 @@ body {
   color: #2344bc;
 }
 
-.featuredProject, .col1, .col2 {
-  width: 100%;
-}
-
 .featuredProject {
   background-color: #fff;
   height: 6.5vh;
@@ -93,7 +89,6 @@ body {
 }
 
 .featuredProject h3, .col1 h3 {
-  clear:both;
   letter-spacing: .1em;
   color: #fff;
   font-size: 12px;
@@ -106,7 +101,7 @@ body {
   font-size: 12px;
   padding-left: 8%;
   padding-top: 4%;
-  margin-bottom: -3%;
+  margin-bottom: -1%;
 }
 
 .featuredProject p:hover, .col1 p:hover, ul a:hover {
@@ -132,6 +127,11 @@ body {
 
 li a {
   color: #fff;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #FF3800;
   font-weight: bold;
 }
 
@@ -269,17 +269,6 @@ li a {
     margin-bottom: 1.8%;
   }
 
-  .main img {
-    /*margin-top: -2%;*/
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /*position: relative;*/
-    top: 0;
-    left: 0;
-  }
-
   .nav {
     background-color: #fff;
     opacity: 0.95;
@@ -287,8 +276,6 @@ li a {
     height: 210px;
     margin-top: 50px;
     margin-left: 50px;
-    top: 0;
-    left: 0;
     position: fixed;
     z-index: 9999;
     padding-left: 5px;
@@ -386,13 +373,5 @@ li a:hover {
     height: 100vh;
     margin-right: .70vw;
     margin-bottom: 0;
-}
-
-  .main img {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    left: 0;
 }
 }
