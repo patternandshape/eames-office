@@ -80,7 +80,7 @@ body {
 .featuredProject {
   background-color: #fff;
   height: 6.5vh;
-  margin-top: -.1em;
+  margin-top: 0;
   margin-bottom: 5%;
 }
 
@@ -109,7 +109,7 @@ body {
   margin-bottom: -3%;
 }
 
-.featuredProject p:hover, .col1 p:hover {
+.featuredProject p:hover, .col1 p:hover, ul a:hover {
   color: #2344bc;
 }
 
@@ -191,7 +191,8 @@ li a {
     float: left;
     text-align: center;
     letter-spacing: 1px;
-    padding: 7vh 3vw 7vh 0;
+    padding: 4vh 10vw 7vh 7vw;
+    line-height: 30px;
   }
 
   .col1 h3 {
@@ -203,7 +204,7 @@ li a {
     background-color: #000;
     color: #fff;
     padding-top: 3vh;
-    padding-left: 6vw;
+    padding-left: 7vw;
     padding-right: 6vw;
     font-size: 14px;
   }
@@ -211,9 +212,9 @@ li a {
   .col2 img {
     display:block;
     float:left;
-    width: 90%;
+    width: 60%;
     margin-right: 200px;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
     max-width: 289px;;
   }
 
@@ -264,12 +265,12 @@ li a {
   }
 
   .main img {
-    margin-top: -2%;
+    /*margin-top: -2%;*/
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
+    /*position: relative;*/
     top: 0;
     left: 0;
   }
@@ -277,21 +278,23 @@ li a {
   .nav {
     background-color: #fff;
     opacity: 0.95;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 210px;
     margin-top: 50px;
     margin-left: 50px;
     top: 0;
     left: 0;
     position: fixed;
     z-index: 9999;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .nav a {
     color: #000;
   }
 
-  .nav a:hover {
+  .nav h3 a:hover {
     color: #FF3800;
   }
 
@@ -300,7 +303,7 @@ li a {
     padding-right: 2vw;
     width: 60%;
     color: #000;
-    letter-spacing: .2em;
+    letter-spacing: .3em;
     padding-bottom: 1.5em;
   }
 
@@ -311,8 +314,9 @@ li a {
     color: #fff;
   }
 
-  ul a:hover {
+li a:hover {
     color: #2344bc;
+    font-weight: bold;
   }
 }
 
@@ -333,7 +337,7 @@ li a {
 
   .col1 {
     margin: 0 0 1vh 0;
-    padding-top: 10vh;
+    padding-top: 7vh;
   }
 
   .col1 h3 {
@@ -345,6 +349,7 @@ li a {
 
   .col1 p {
     font-size: 14px;
+    font-weight: 800;
   }
 
   .col2 {
@@ -355,7 +360,7 @@ li a {
 
   .col2 img {
     float:left;
-    width: 60%;
+    width: 70%;
     padding-bottom: 4vh;
     padding-top: 0vh;
   }
@@ -377,11 +382,8 @@ li a {
   .main img {
     display: block;
     width: 100%;
-    height: 100%S;
+    height: 100vh;
     object-fit: cover;
-    /*position: absolute;*/
-    /*top: 0;
     left: 0;
-    margin-bottom: 0;*/
 }
 }
