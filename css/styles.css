@@ -239,14 +239,17 @@ li a {
     margin: 0;
     display: block;
     position: absolute;
+    margin-top: 57vh;
+    margin-left: 65px;
   }
 
   .footer h3{
-    color: #000;
+    color: #fff;
+    font-weight: lighter;
   }
 
   .footer p{
-    color: #000;
+    color: #fff;
   }
 
   html, body {
@@ -337,7 +340,7 @@ li a:hover {
 
   .col1 {
     margin: 0 0 1vh 0;
-    padding-top: 7vh;
+    padding-top: 6vh;
   }
 
   .col1 h3 {
@@ -369,6 +372,10 @@ li a:hover {
     letter-spacing: .75px;
     line-height: 20px;
     font-size: 16px;
+  }
+
+  .footer {
+    margin-top: 83vh;
   }
 
   .main {
