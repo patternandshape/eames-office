@@ -15,9 +15,7 @@ A website for the Eames Office using responsive design layouts we learned this w
 
 * HTML
 * CSS
-* Atom
-* Terminal
-* Google Fonts API
+* Google Fonts
 
 
 #####Eames Office can be viewed at http://patternandshape.github.io/eames-office
@@ -26,4 +24,4 @@ A website for the Eames Office using responsive design layouts we learned this w
 
 *This software is licensed under the MIT license.*
 
-&copy;2016 **Molly Curtin**
+&copy; 2016 **Molly Curtin**
